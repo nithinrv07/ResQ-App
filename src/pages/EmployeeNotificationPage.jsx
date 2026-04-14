@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
-import { AlertTriangle, AlertCircle, Bell, LogOut, CheckCircle, Zap, User, Phone } from 'lucide-react';
+import { AlertTriangle, AlertCircle, Bell, LogOut, CheckCircle, Zap, User, Phone, MapPin } from 'lucide-react';
 
 import { mockDb } from '../services/firebase';
 
